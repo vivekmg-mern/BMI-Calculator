@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <!-- CSS Link -->
+     <link rel="stylesheet" href="./style.css">
+</head>
+<body class="item1" style="margin-left: 300px; margin-top: 30px;">
+    <Div style="text-align: center; background-image: linear-gradient(white, yellow, orange, white); border: solid; border-radius: 5px; width: 60%; ">
+        <h2>BMI Calculator</h2>
+        <form id="myForm" action="">
+<h3>Enter your Height <span style="color: brown;">(in meter)</span></h3> 
+<input style="border-radius: 5px;" type="text" placeholder="" id="heightInput"><br><br>
+<h3>Enter your Weight <span style="color: brown;">(in kg)</span></h3>
+<input style="border-radius: 5px;" type="text" placeholder="" id="weightInput"><br><br></form>
+<button onclick="calculateBMI()">Calculate</button><br><br>
+<button id="btnRefresh" type="button">Reset</button>
+
+<h3 id="bmiresult"></h3>
+<h3 id="result"></h3>
+
+
+
+    </Div>
+
+      
+<img class="pic1" style="display:none; justify-content: center; height: 400px;" id="normal1" src="./images/under.png" alt="">
+<img class="pic1" style="display:none; justify-content: center; height: 400px;" id="normal2" src="./images/normal.png" alt="">
+<img class="pic1" style="display:none; justify-content: center; height: 400px;" id="normal3" src="./images/over.png" alt="">
+<img class="pic1" style="display:none; justify-content: center; height: 400px;" id="normal4" src="./images/obese.png" alt=""></div>
+
+
+</body>
+<script src="./main.js"></script>
+</html>
